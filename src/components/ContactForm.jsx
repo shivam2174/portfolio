@@ -74,7 +74,7 @@ const onSubmit = async (data) => {
             {...register("name")}
             type="text"
             id="name"
-            placeholder="Tommy"
+            placeholder="Enter your name"
             className="w-full px-4 py-4 font-light md:text-base text-sm placeholder:text-[#fafafa50] bg-black-300 rounded-md"
           />
           {errors.name && (
@@ -93,7 +93,7 @@ const onSubmit = async (data) => {
             type="email"
             {...register("email")}
             id="email"
-            placeholder="hello@gmail.com"
+            placeholder="shivamtyagi0035@gmail.com"
             className="w-full px-4 py-4 font-light md:text-base text-sm placeholder:text-[#fafafa50] bg-black-300 rounded-md"
           />
           {errors.email && (
