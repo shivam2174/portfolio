@@ -22,7 +22,7 @@
 // export default HeroExp;
 import { Canvas } from "@react-three/fiber";
 import { Sparkles } from "@react-three/drei";
-import { Heroboy } from "./HeroBoy";
+import { Heroboy } from "./HeroBoy.jsx";
 
 
 
