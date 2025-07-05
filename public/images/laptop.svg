@@ -1,0 +1,32 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Laptop screen frame -->
+  <rect x="80" y="40" width="240" height="160" rx="10" ry="10" fill="#34495e" stroke="#2c3e50" stroke-width="4"></rect>
+  
+  <!-- Screen background -->
+  <rect x="90" y="50" width="220" height="140" rx="8" ry="8" fill="#ecf0f1"></rect>
+  
+  <!-- Code lines (stylized content) -->
+  <line x1="100" y1="70" x2="280" y2="70" stroke="#27ae60" stroke-width="3"></line>
+  <line x1="100" y1="85" x2="250" y2="85" stroke="#2980b9" stroke-width="2"></line>
+  <line x1="100" y1="100" x2="240" y2="100" stroke="#e67e22" stroke-width="2"></line>
+  <line x1="100" y1="115" x2="230" y2="115" stroke="#9b59b6" stroke-width="2"></line>
+  <line x1="100" y1="130" x2="210" y2="130" stroke="#c0392b" stroke-width="2"></line>
+  
+  <!-- Laptop base -->
+  <path d="M60 200 h280 l20 20 h-320 z" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"></path>
+  
+  <!-- Touchpad -->
+  <rect x="180" y="210" width="40" height="10" rx="2" ry="2" fill="#bdc3c7"></rect>
+  
+  <!-- Keyboard (stylized as rectangles) -->
+  <g fill="#95a5a6">
+    <rect x="90" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="115" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="140" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="165" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="190" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="215" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="240" y="185" width="20" height="5" rx="1"></rect>
+    <rect x="265" y="185" width="20" height="5" rx="1"></rect>
+  </g>
+</svg>
