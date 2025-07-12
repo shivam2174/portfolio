@@ -45,7 +45,7 @@ const onSubmit = async (data) => {
     const templateID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
     const userID = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
 
-    await emailjs.send(serviceID, templateID, payload, userID); // ← FIXED HERE
+    await emailjs.send(serviceID, templateID, payload, userID); 
     alert("Message sent successfully!");
     reset(initialValues);
   } catch (error) {
